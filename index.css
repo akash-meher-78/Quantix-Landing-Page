@@ -10,6 +10,8 @@
 }
 
 
+
+
 * {
     margin: 0;
     padding: 0;
@@ -205,7 +207,7 @@ body {
 .tour-btn {
     border: none;
     border-radius: 0.375rem;
-    background-color: var(--text-color);
+    background-color: var(--border-color);
     color: var(--card-bg);
     transform: all 0.1s;
     cursor: pointer;
@@ -725,7 +727,7 @@ ul{
 }
 
 .footer-copyright{
-    color: var(--gray);
+    color: var(--card-bg);
     font-size: 0.75rem;
     padding-bottom: 2rem;
     margin-top: 2rem;
